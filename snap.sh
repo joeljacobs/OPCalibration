@@ -1,4 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
+cd /system/comma/home/params
 
 #newdir=$(git status -u |grep .tmp|grep -v deleted|awk -F "/" '{print $1}'|cut -f 2|head -1)
 newdir=$(readlink /data/params/d)
